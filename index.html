@@ -63,7 +63,7 @@
     .escena { overflow-x: auto; overflow-y: hidden; overscroll-behavior-x: contain;
       scrollbar-width: none; -webkit-overflow-scrolling: touch; }
     .escena::-webkit-scrollbar { display: none; }
-    .escena svg { width: 250vw; max-width: none; }
+    .escena svg { width: 320vw; max-width: none; }
     .escena canvas.textura { position: fixed; }
     .pista {
       display: block; position: fixed; left: 50%; z-index: 5;
@@ -515,6 +515,7 @@
     @media (prefers-reduced-motion: reduce) { .strip { animation: none; } }
     section.more > *:not(canvas) { position: relative; z-index: 1; }
     footer .display { cursor: pointer; }
+    footer small { background: #151513; box-shadow: 0 0 0 6px #151513; line-height: 1.5; }
     footer .display:hover .g { color: #fff; }
     .hand { cursor: pointer; transform-origin: 25% 15%; -webkit-tap-highlight-color: transparent; }
     .hand:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
